@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <main class="main-content">
+        <header class="header-banner">
+            <h1 class="main-title">Amigo Secreto</h1>
+            <img src="assets/pixelcat.png" width="206" height="131" alt="Arte en Pixel de kiki" id="img-banner">
+        </header>
+        
+        <section class="input-section">
+            <section class="inputbuttons-section"> 
+                <img src="assets/pixil-frame-0.png" alt="pixel Art de gatita negra" width="106" height="103" class="pixel-cat">
+                <div class="input-container">
+                    <h2 class="section-title">Escriba el nombre de sus amigos</h2>
+                    <div class="input-wrapper">
+                        <input type="text" id="amigo" class="input-name" placeholder="Escribe un nombre ej. Norma" >
+                        <button class="button-add" onclick="agregarAmigo()">Añadir</button>
+                    </div> 
+                    <div class="button-container">
+                        <button class="button-draw" onclick="sortearAmigo()" aria-label="Sortear amigo secreto">
+                            <img src="assets/play_circle_outline.png" alt="Ícono para sortear">
+                                    Sortear amigo
+                        </button>
+                        <button class="button-reset" id="button-reset" onclick="resetJuego()" aria-label="Volver a jugar">
+                            <img src="assets/reset.png" alt="Ícono para sortear">
+                                    Volver a jugar
+                        </button>
+                    </div>
+                </div> 
+                <img src="assets/pixil-frame-0.png" alt="pixel Art de gatita negra" width="106" height="103" class="pixel-cat">
+            </section>
+            <!--Este codigo fue editado por Gicelle H.-->
+            <section class="list-section">
+                <section class="flecha-section">
+                    <h3>Lista de amigos:</h3>
+                </section>
+                <ul id="listaAmigos" class="name-list" aria-labelledby="listaAmigos" role="list"></ul>
+                <section class="result-section">
+                    <img src="assets/pets_16.png" alt="icono patita de gato" width="27" height="26"></img>
+                    <p id="resultado" class="result-list" aria-live="polite"></p>
+                </section>
+            </section>
+        </section>
+    </main>
+    
+    <script src="app.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,374 @@
+/*importando las fuentes de google*/
+@import url('https://fonts.googleapis.com/css2?family=Capriola&family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Madimi+One&display=swap');
+
+:root {
+    --color-primary: #0F0F0D;
+    --color-white: #ECDFCC;
+    --color-black: #000000;
+
+    --fuente-kodacha:  "Kodchasan", serif;
+    --fuente-madimi: "Madimi One", serif;
+
+}
+
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--color-primary);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+   
+}
+
+/* Banner */
+.header-banner {
+    flex: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0 0 10%;
+    gap: 20px;
+}
+
+
+/* Sección de entrada */
+
+.input-section {
+    flex: 60%;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    width: 100%;
+
+
+}
+/*secccion de botones*/
+.inputbuttons-section{
+    flex: 50%; 
+    display: flex;
+    flex-direction:row;
+    width: auto;
+    height: 100%;
+    align-items: center;
+    background-color: #3C3D37;
+    border: rgb(50, 50, 50) solid 7px;
+}
+
+/*seccion de listas*/
+.list-section{
+    flex: 50%;
+    display: flex;
+    flex-direction:column;
+    padding: 20px;
+    width: auto;
+    height: 100%;
+    background-color:#697565 ;
+    border: #464e44 solid 7px;
+}
+
+/*resultados*/
+.result-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 0;
+    width: 100%;
+
+    
+}
+/* Títulos */
+.main-title {
+    font-size: 2.25rem;
+    font-family: var(--fuente-kodacha);
+    font-weight: 700;
+    font-style: normal;
+    color: var(--color-white);
+}
+/*contenedores de la seccion input**/
+.input-container{
+    flex: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pixel-cat{
+    display: flex;
+    flex: none;
+    width: 100px;
+}
+/*titulo del input*/
+.section-title {
+    font-family: var(--fuente-madimi);
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    color: var(--color-white);
+    margin: 5px 0;
+    text-align: center;
+    
+}
+
+/* Contenedores de entrada y botón */
+.input-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+    padding: 30px;
+    gap: .75rem;
+}
+
+.input-name {
+    font-family: var(--fuente-kodacha);
+    font-weight: 400;
+    font-style: normal;
+    width: 100%;
+    border: 2px solid #000000 ;
+    border-radius: 8px;
+    font-size: 1.25rem;
+    margin: 0px 5px 0px 0px;
+}
+
+.button-container {
+    padding: 8px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilos de botónes */
+button {
+    padding: 15px 30px;
+    font-family: var(--fuente-madimi);
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    border: 2px solid #000;
+    border-radius: 8px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+span{
+    cursor: pointer;
+    padding-left: .5rem;
+    font-size:.80rem;
+}
+
+.button-add {
+    background-color: #5E893B;
+    color: var(--color-white);
+    border-radius:  10px 10px 10px 10px ;
+    border: 3px solid #31511E ;
+}
+
+.button-add:hover {
+    background-color: #31511E;
+}
+
+.result-list {
+    font-family: var(--fuente-kodacha);
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1rem;
+    margin-top: 5px;
+    color: #6D1F1F;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Botón de sortear título */
+.button-draw {
+    display: flex;
+    align-items: center;
+    width: auto;
+    padding: 10px 40px;
+    color: var(--color-white);
+    background-color: #3F4F44;
+    border: 2px solid #2C3F32 ;
+    font-size: 1.125rem;
+    margin: 10px;
+}
+
+.button-draw img {
+    margin-right: 20px;
+}
+
+.button-draw:hover {
+    background-color: #2C3F32;
+}
+/*boton de reset nuevo*/
+.button-reset{
+    display: flex;
+    align-items: center;
+    width:auto;
+    padding: 10px 40px;
+    color: var(--color-white);
+    font-size: 1.125rem;
+    background-color: #3F4F44;
+    border: 2px solid #2C3F32 ;
+    margin: 10px;
+}
+.button-reset img{
+    margin-right: 30px;
+}
+.button-reset:hover{  
+      background-color: #2C3F32;
+}
+/* Listas */
+h3{
+    color: var(--color-white);
+    font-family: var(--fuente-madimi);
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    color: var(--color-text);
+    margin: 15px 0;
+    font-family: var(--fuente-kodacha);
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1rem;
+    padding:0;
+    display: flex;
+    flex-flow: row wrap;
+}
+ul li{
+
+    margin: .30rem;
+    background-color: #3F4F44;
+    color: var(--color-white);
+    padding: .5rem;
+    border-radius: 8px;
+    width: 13rem;
+    text-align: center;
+}
+
+/* Este código fue editado por Gicelle H.*/
+
+/* css responsiva*/
+@media (max-width: 1200px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .img-banner {
+       width: 100%;
+     }
+     .header-banner {
+        flex: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px 0 0 10%;
+        gap: 10px;
+    }
+    .main-content {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+       
+    }
+    ul li{
+
+        padding: .5rem;
+        border-radius: 8px;
+        width: auto;
+        text-align: center;
+    }
+    .input-section {
+        flex: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        width: 100%;
+    }
+    .input-wrapper {
+        flex-wrap: wrap;
+        }
+    .list-section{
+        flex: auto;
+        display: flex;
+        flex-direction:column;
+        padding: 20px;
+        width: auto;
+        height: 25rem;
+        background-color:#697565 ;
+    }
+
+    .inputbuttons-section{
+        flex:auto; 
+        display: flex;
+        flex-direction:column;
+        padding: 20px;
+        width: auto;
+        height: auto;
+        align-items: center;
+    }
+    body {
+        height: auto;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .input-name{
+        width: 100%;
+        margin: 0;
+        font-size: 1.5rem;
+        padding: 2%;
+    }
+    
+    .button-container {
+        padding: 8px;
+        width: 60%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .button-draw{
+        width: auto;
+        padding: 10px;
+        font-size: 1rem;
+    }
+    .button-reset{
+        width: auto;
+        font-size: 1rem;
+        padding: 10px;
+    }
+    .button-reset img{
+        margin-right: 20px;
+        width: 20px;
+    }
+    .button-draw img{
+        width: 20px;
+    }
+    .button-add{
+        width: 100%;
+        font-size: 1.35rem;
+        padding: 5px;
+    }
+
+   }
