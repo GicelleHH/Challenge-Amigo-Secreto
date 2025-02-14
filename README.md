@@ -19,20 +19,19 @@ Practicando Lógica de Programación llamado "Amigo Secreto" en la plataforma de
 
 ![amigoS-ELIMINAR](https://github.com/user-attachments/assets/fdb1b7d8-0dd6-4be9-b863-fb0e5fcaa89c)
 
-- :four_leaf_clover:**Sortear amigos:**  Permite al usuario sortear la lista que ingresó presionando el botón "sortear amigo" con el cual el programa elegirá a un amigo de forma aleatoria. :paw_prints:
+- :four_leaf_clover:**Sortear amigos:**  Permite al usuario sortear la lista que ingresó presionando el botón "sortear amigo" con el cual la aplicación elegirá a un amigo de forma aleatoria. :paw_prints:
 ![amigoS-SORTEAR](https://github.com/user-attachments/assets/b7374f10-c73a-44cd-b430-fe9be09c6a5f)
 
 - :repeat:**Volver a jugar:**  Permite al usuario limpiar todos los valores ingresados para empezar un juego nuevo, solo presionando el botón "volver a jugar".
 ![amigoS-VOLVERAJUGAR](https://github.com/user-attachments/assets/2d9886d8-68cc-4b72-b54f-ad8673c97f65)
 
-- 📱**Diseño responsivo:** Gracias a su diseño de estilos responsivo se puede abrir y jugar cómodamente en dispositivos móviles también!.
-
-![movilAmigoSecreto](https://github.com/user-attachments/assets/04ce424b-1577-4a2f-9957-227f0b82d0ed)
-
-
-- **Validaciones:** El input es capaz de detectar si el campo está vacío, si contiene números o si el nuevo valor ya existe en la lista y envía alertas correspondientes al usuario.
+- ✅**Validaciones:** El input es capaz de detectar si el campo está vacío, si contiene números o si el nuevo valor ya existe en la lista y envía alertas correspondientes al usuario.
 ![amigoS-VALIDAR](https://github.com/user-attachments/assets/288cdb8a-1e8a-4d51-84a8-e25b818e722f)
 
+
+- 📱**Diseño responsivo:** Gracias a su diseño de estilos responsivo se puede abrir y jugar cómodamente en dispositivos móviles también!.
+
+   ![movilAmigoSecreto](https://github.com/user-attachments/assets/04ce424b-1577-4a2f-9957-227f0b82d0ed)
 
 ## 📁 Acceso al proyecto
 
@@ -58,6 +57,10 @@ git clone https://github.com/GicelleHH/Challenge-AmigoSecreto-GH.git
 - `Html5`
 - `JavaScript`
 - `CSS`
+  
+## 👾 Juega aquí!
+
+https://gicellehh.github.io/Challenge-Amigo-Secreto/
 
 ## Autor
 ⌨️por [GicelleHdz](https://github.com/GicelleHH) 🐈‍⬛
