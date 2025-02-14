@@ -6,7 +6,7 @@
 
 
 # Challenge-AmigoSecreto-GH
-_En este proyectyo encontrarás una de las posibles soluciones al challenge del Curso de
+_En este proyecto encontrarás una de las posibles soluciones al challenge del Curso de
 Practicando Lógica de Programación llamado "Amigo Secreto" en la plataforma de AluraLatam. Es un juego el cual consiste en darle una lista de nombres a la máquina para que después esta misma los sortee y devuelva el nombre de un amigo que esté en la lista que se le dió. Esto es una interpretación del famoso juego del amigo secreto donde se comparten regalos entre amigos o familia donde se elige el amigo secreto aleatoriamente._
 
 
